@@ -4,7 +4,6 @@
 function zendeskTrackingCode(host) {
   var scriptArray = [
     "<script>/*<![CDATA[*/",
-    "/*]]>*/</script>",
     "window.zEmbed||function(e,t){",
     "var n,o,d,i,s,a=[],r=document.createElement('iframe');window.zEmbed=function(){",
     "a.push(arguments)",
@@ -20,7 +19,8 @@ function zendeskTrackingCode(host) {
     "},o.write('<body onload=\"document._l();\">'),o.close()",
     "}('https://assets.zendesk.com/embeddable_framework/main.js',",
     host,
-    ");"
+    ");",
+    "/*]]>*/</script>"
   ];
   return scriptArray;
 }
