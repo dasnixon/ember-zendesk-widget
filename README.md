@@ -1,6 +1,8 @@
 # Ember-zendesk-widget
 
-This README outlines the details of collaborating on this Ember addon.
+It's simple, just set the `zendeskWidgetHost` property in your
+`config/environment.js` in your ember-cli application, and you got
+yourself a help button widget. Cheers!
 
 ## Installation
 
