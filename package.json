@@ -1,6 +1,6 @@
 {
   "name": "ember-zendesk-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cleanly add zendesk widget to your web application",
   "directories": {
     "doc": "doc",
