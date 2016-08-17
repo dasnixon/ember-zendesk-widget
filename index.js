@@ -18,7 +18,7 @@ function zendeskTrackingCode(host) {
     "this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)",
     "},o.write('<body onload=\"document._l();\">'),o.close()",
     "}('https://assets.zendesk.com/embeddable_framework/main.js',",
-    "'" + host "'",
+    "'" + host + "'",
     ");",
     "/*]]>*/</script>"
   ];
