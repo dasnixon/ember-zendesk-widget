@@ -29,7 +29,7 @@ module.exports = {
   name: 'ember-zendesk-widget',
   contentFor: function(type, config) {
     var zendeskWidgetHost = config.zendeskWidgetHost;
-    if (type === 'head' && zendeskWidgetHost !== null) {
+    if (type === 'head' && zendeskWidgetHost != null) {
       return zendeskTrackingCode(zendeskWidgetHost).join("\n");
     }
     return '';
